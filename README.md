@@ -7,4 +7,4 @@ Activities developed during the course of <a href="https://portaltech.joyclass.c
 <p>Site fictício de agência de viagem, foco na Europa.</p>
 
 <h2> 2. Marco zero </h2>
-<p>Página criada visando utilizar as principais tags para a criação de um site, foi usado o Ponto turístico Marco Zero em Recife para exemplificação.</p>
+<p>Página criada visando utilizar as principais tags para a criação de um site, foi usado o Ponto turístico Marco Zero em Recife para exemplificação, na próxima etapa foi necessário adicionar uma nova página contando um pouco sobre outros pontos turísticos da ciadade de Recife.</p>
