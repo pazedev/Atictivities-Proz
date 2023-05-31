@@ -30,4 +30,33 @@
     text-align: center;
 }
 
+h3 {
+  font-size: 16px;
+}
+
+
+/* FLEX BOX */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer {
+  display: flex;
+}
+
+.footer-nav {
+  margin-left: 60px;
+}
+
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+  gap: 40px;
+  padding-left: 20px;
+}
+
   

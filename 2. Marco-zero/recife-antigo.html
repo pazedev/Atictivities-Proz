@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+
     <title>Pontos Turísticos - Recife Antigo</title>
 </head>
 <body>
     <header>
-        <span>Marco Zero</span>
+        <span id="logo">Marco Zero</span>
         <nav>
             <ul>
                 <li><a href="./index.html">Home</a></li>
@@ -18,8 +20,8 @@
     </header>
 
     <main>
-        <h1> Pontos turísticos - Recife Antigo</h1>
-        <p>Além do Marco Zero você também vai adorar conhecer outros pontos turísticos de Recife. 
+        <h1 class="title"> Pontos turísticos - Recife Antigo</h1>
+        <p class="title">Além do Marco Zero você também vai adorar conhecer outros pontos turísticos de Recife. 
         Conheça um pouco mais sobre eles abaixo.</p>
 
         <h2>Rio Capibaribe</h2>
@@ -48,14 +50,14 @@
     </main>
 
     <footer>
-        <h3>Marco Zero - Recife</h3>
-        <img src="https://assistentedeviagem.com.br/blog/wp-content/uploads/2022/11/marco-zero-recife-antigo-3-1024x683.jpg" width="150" alt="Foto de um monumento de Recife com o nome da cidade em azul, pessoas tirando foto ao redor dele">
-        <p>Página em homenagem aos Pontos Turísticos de Recife, para treinar o desenvolvimento de uma página em html.
-            <br>
-            Texto retirado da página <a href="https://www.queroviajarmais.com/pontos-turisticos-de-recife-praias/">Quero Viajar Mais</a>.
-        </p>
-
-        <h3>NAVEGAÇÃO</h3>
+        <div class="footer-info">
+            <span id="logo">Marco Zero</span>  
+            <p>Página em homenagem ao Marco Zero de Recife, para treinar o desenvolvimento de uma página em html.</p>
+            <p>Texto retirado da página <a href="https://assistentedeviagem.com.br/blog/marco-zero-em-recife-antigo/">Assistente de Viagem</a>.</p>
+        </div>
+        
+        <div class="footer-nav">
+            <h3>NAVEGAÇÃO</h3>
             <ul>
                 <li>
                     <a href="./index.html">Marco Zero</a> 
@@ -63,7 +65,8 @@
                 <li>
                     <a href="./recife-antigo.html">Outros pontos turísticos</a> 
                 </li>
-        </ul>
+            </ul>
+        </div>
     </footer>
     
 </body>
