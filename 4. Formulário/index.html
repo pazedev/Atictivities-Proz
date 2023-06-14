@@ -1,49 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">git
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Formulário de Contato</title>
 </head>
 
 <body>
-    <h1>Formulário estilizado</h1>
-    <form class="form" action="index.html" method="post">
-        <label for="name">Nome:</label>
-        <input type="text" id="name" name="nome">
+    <header>
+        <h1>Formulário estilizado</h1>
+    </header>    
+    <section class="form-bg">
+        <form class="form" action="index.html" method="post">
+            <div class="text">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="nome">
+            </div>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email">
+            <div class="text">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
 
-        <label for="senha">Senha:</label>
-        <input type="password" id="senha" name="senha">
+            <div>
+                <section class="choice">
+                    <p>Nacionalidade:</p>
+                    <input type="radio" name="nacionalidade" id="brasil" value="brasileiro">
+                    <label for="brasil">Brasileiro(a)</label>
 
-        <label for="tel">Telefone:</label>
-        <input type="tel" id="tel" name="tel">
+                    <input type="radio" name="nacionalidade" id="outro" value="estrangeiro">
+                    <label for="outro">Estrangeiro(a)</label>
+                </section>
+            </div>
 
-        <section class="nacionalidade">
-            <p>Nacionalidade:</p>
-            <input type="radio" name="nacionalidade" id="brasil" value="brasileiro">
-            <label for="brasil">Brasileiro(a)</label>
+            <div>
+                <section class="choice">
+                    <p>Meio de Transporte:</p>
+                    <input type="checkbox" name="meio-transporte" id="pe" value="pe">
+                    <label for="pe">A pé</label>
 
-            <input type="radio" name="nacionalidade" id="outro" value="estrangeiro">
-            <label for="outro">Estrangeiro(a)</label>
-        </section>
+                    <input type="checkbox" name="meio-transporte" id="bike" value="bike">
+                    <label for="bike">Bicicleta</label>
 
-        <section class="meio-transporte">
-            <p>Meio de Trasnporte:</p>
-            <input type="checkbox" name="meio-transporte" id="pe" value="pe">
-            <label for="pe">A pé</label>
+                    <input type="checkbox" name="meio-transporte" id="carro" value="carro">
+                    <label for="carro">Carro</label>
+                </section>
+            </div>
 
-            <input type="checkbox" name="meio-transporte" id="bike" value="bike">
-            <label for="bike">Bicicleta</label>
-
-            <input type="checkbox" name="meio-transporte" id="carro" value="carro">
-            <label for="carro">Carro</label>
-        </section>
-
-        <button type="submit">Enviar</button>
-    </form>
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
 </body>
 </html>

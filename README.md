@@ -14,3 +14,6 @@ Activities developed during the course of <a href="https://portaltech.joyclass.c
 
 <h2> 3. Marco zero CSS </h2>
 <p>Estilização básica do HTML feito na atividade dois (Marco-Zero). Buscou-se utilizar princípios iniciais de adição de cores, posicionamento de imagens e um pouco de FLEX BOX.</p>
+
+<h2> 4. Formulário </h2>
+<p>Criação de um formulário básico e estilização simples para treinar.</p>
