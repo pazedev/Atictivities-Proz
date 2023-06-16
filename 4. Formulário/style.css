@@ -1,59 +1,66 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 16px;
-    padding: 0px;
-    margin: 0px;
-}
-
-header {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #202020;
+  }
+  
+  body {
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
-    background-color:blue;
-    color: white;
-}
+    background-color: #101010;
+  }
 
-h1 {
-    font-size: 26px;
-    letter-spacing: 4px;
-}
-
-.form-bg {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 50vh;
-}
-
-form input, form textarea {
-    outline: unset;
-    padding: 8px;
-    border: 1px solid blue;
-    border-radius: 10px;
-}
-
-.text {
+  form {
     display: flex;
     flex-direction: column;
-    width: 350px;
-    margin-bottom: 20px;
-    gap: 5px;
-}
+    width: 400px;
+    background-color: lightgray;
+    border-radius: 16px;
+    padding: 1.5rem 40px;
+  }
+  
+  h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  
+  label {
+    margin-bottom: .5rem;
+    position: relative;
+  }
 
-.choice {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-    gap: 10px;
-}
+  label:not(:first-of-type){
+    margin-top: 1rem;
+  }
+  
+  input {
+    padding: 5px;
+  }
+  
+  .choice {
+    padding: 10px 0px;
+  }
 
-button {
-    background-color: blue;
-    color: white;
-    padding: 10px;
-    width: 150px;
-    border-radius: 10px;
-    margin-left: 110px;
-    box-shadow: inset 2px black;
-}
+  .choice p {
+    margin-bottom: 5px;
+  }
+
+  .choice label {
+    padding: 2.5px;
+    margin-right: 10px;
+  }
+  
+  button {
+    background-color: #202020;
+    color: beige;
+    width: 100px;
+    height: 40px;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    align-self: center;
+  }

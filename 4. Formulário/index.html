@@ -8,23 +8,16 @@
     <title>Formulário de Contato</title>
 </head>
 
-<body>
-    <header>
-        <h1>Formulário estilizado</h1>
-    </header>    
-    <section class="form-bg">
+<body>   
         <form class="form" action="index.html" method="post">
-            <div class="text">
-                <label for="name">Nome:</label>
-                <input type="text" id="name" name="nome">
-            </div>
+            <h2>Formulário estilizado</h2>
 
-            <div class="text">
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-            </div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="nome">
 
-            <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+
                 <section class="choice">
                     <p>Nacionalidade:</p>
                     <input type="radio" name="nacionalidade" id="brasil" value="brasileiro">
@@ -33,9 +26,7 @@
                     <input type="radio" name="nacionalidade" id="outro" value="estrangeiro">
                     <label for="outro">Estrangeiro(a)</label>
                 </section>
-            </div>
 
-            <div>
                 <section class="choice">
                     <p>Meio de Transporte:</p>
                     <input type="checkbox" name="meio-transporte" id="pe" value="pe">
@@ -47,7 +38,6 @@
                     <input type="checkbox" name="meio-transporte" id="carro" value="carro">
                     <label for="carro">Carro</label>
                 </section>
-            </div>
 
             <button type="submit">Enviar</button>
         </form>
